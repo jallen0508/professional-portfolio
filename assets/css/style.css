@@ -1,0 +1,60 @@
+ /* Style sheet for Jeremy Allen Webpage */
+ * {
+  box-sizing: border-box;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* Body background gray*/
+body{
+  background-color: gray;
+  margin: auto;
+}
+
+/* Header centered w/ light blue color */
+header{
+  text-align: center;
+  background-color: lightblue;
+}
+
+/* Navigation buttons in alignment w/ img */
+nav {
+  display: inline-flex;
+  background-color: lightgray;
+  margin: 10px;
+  padding: 5px;
+} 
+
+/* Un-order line item fonts */
+li {
+  font-size: large;
+}
+
+/* All paragraphs in large, yellow font */
+p {
+  font-size: larger;
+  font-weight: bolder;
+  color: yellow;
+  margin: 10px;
+  font-size: larger;
+  justify-content: center;
+}
+
+/* Section margin to demonstrate links */
+section{
+  padding-left: 2%;
+  margin-top: 50%;
+  outline: 5px solid blue;
+}
+
+/* Cursor turns text green */
+.resume:hover { 
+  color: green;
+  position: absolute;
+}
+
+/* Enlarge App#1 image */
+.bigger{
+  width: 500px;
+}
+
+
